@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>DBATU</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome icons -->
+    <script src="https://kit.fontawesome.com/7c9723d9bd.js" crossorigin="anonymous"></script>
+</head>
+
+<body img src="">
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="./logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="./About.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Govt. autonomous university in Maharashtra. </h1>
+            <p>It is named after Babasaheb Ambedkar, a prominent Indian jurist, <br> economist, politician and social
+                reformer.</p>
+            <br>
+            <a href="#" class="hero-btn">know More</a>
+        </div>
+
+    </section>
+
+    <!---------course------------>
+
+    <section class="COURSE">
+        <h1>Course We Offer</h1>
+        <p> BE/B.TECH, ME/M.Tech, Diploma, B.Arch, B.H.M.C.T, M.C.A <br>B.Pharma, M.Pharma, Pharm.D, MBA, Ph.D , etc</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>GRADUATIONS</h3>
+                <P>Graduations in computer science and engineering , Graduations in civil engineering ,
+                    Graduations in machanical engineering,Graduations in electrical engineering
+                </P>
+            </div>
+            <div class="course-col">
+                <h3>POST GRADUATIONS</h3>
+                <P> Masters in Business Administration (B.TECH)
+                    A Bachelor’s Degree or equivalent awarded by any of the universities
+                    incorporated by an act of the central or state legislature in India.
+                </P>
+            </div>
+            <div class="course-col">
+                <h3>PHD</h3>
+                <P> Masters in Business Administration (B.TECH)
+                    A Bachelor’s Degree or equivalent awarded by any of the universities
+                    incorporated by an act of the central or state legislature in India.
+                </P>
+            </div>
+        </div>
+
+    </section>
+
+    <!-------------campus--------------->
+    <section class="campus">
+        <h1>Our Facilities</h1>
+        <p>The college has an excellent infrastructure, all facilities such as lab, Wi-Fi, library available. Hostel
+            rooms are quite bad, but the food provided by the hostel is of good quality.One of the best college
+            Satisfied with goos faculty, good placement and nice infrastructure .</p>
+        <div class="row">
+            <div class="compus-col">
+                <img src="./Library.jpeg">
+                <div class="layer">
+                    <h3>LIBRARY</h3>
+                </div>
+            </div>
+            <div class="compus-col">
+                <img src="./dbatu.png">
+                <div class="layer">
+                    <h3>CAMPUS</h3>
+                </div>
+            </div>
+            <div class="compus-col">
+                <img src="./hostel1.jpg">
+                <div class="layer">
+                    <h3>HOSTEL</h3>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!---------call to action--------->
+    <section class="cta">
+        <h1>
+            Enroll yourself and Be educated <br>so that you can change the world.
+        </h1>
+        <a href="./contact.html" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!--------footer-------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Babasaheb Ambedkar Technological University (DBATU) is a unitary, Maharashtra state Technological University
+            in Lonere, Maharashtra, India.<br>
+            This is the only govt autonomous university in Maharashtra. The college has a very nice infrastructure, very
+            well managed and the nice collection of books in library, well-equipped laboratories and a huge playground.
+        </p>
+        <div class="icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hidemenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
